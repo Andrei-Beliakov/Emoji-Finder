@@ -1,0 +1,25 @@
+.footer {
+  padding: 13px 0 17px;
+  background-color: #edeef3;
+  text-align: center;
+  margin-top: auto;
+}
+.footer__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6c757d;
+  margin-top: 64px;
+}
+
+.footer__text::before {
+  content: "";
+  display: block;
+  background-color: #ced4da;
+  width: 986px;
+  height: 1px;
+  margin-top: -13px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}

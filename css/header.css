@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+  position: relative;
+  padding: 68px 0 100px;
+  background-color: #3a4f63;
+  background-image: url("../images/Rectangle 2-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87px;
+  color: #cff4fc;
+  margin-bottom: 4px;
+}
+
+.header__subtitle {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #cff4fc;
+}

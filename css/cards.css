@@ -1,0 +1,53 @@
+.cards__input {
+  display: block;
+  width: 820px;
+  margin: 0 auto;
+  height: 64px;
+  padding: 23px 0 21px 32px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  color: #abb5be;
+  transform: translateY(-50%);
+}
+
+.cards__wrapper {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px auto 0;
+  gap: 22px 19px;
+}
+.cards__item {
+  width: 316px;
+  min-height: 184px;
+  border: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.item__emoji {
+  font-size: 48px;
+  line-height: 48px;
+  color: #68717a;
+}
+.item__title {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #000000;
+  margin: 18px 0 12px;
+}
+.item__text {
+  font-size: 12px;
+  line-height: 15px;
+  color: #3f444a;
+  max-width: 268px;
+}
