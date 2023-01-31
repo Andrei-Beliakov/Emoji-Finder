@@ -10,8 +10,14 @@
   font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 21px;
-  color: #abb5be;
+  color: #2b2f34;
+  outline: none;
   transform: translateY(-50%);
+}
+
+.cards__input::placeholder {
+  color: #abb5be;
+  font-family: "Inter", sans-serif;
 }
 
 .cards__wrapper {
@@ -45,7 +51,7 @@
   color: #000000;
   margin: 18px 0 12px;
 }
-.item__text {
+.item__keywords {
   font-size: 12px;
   line-height: 15px;
   color: #3f444a;
