@@ -1,9 +1,8 @@
 import { data } from "./data.js";
-const cardsArrayWrap = document.querySelector(".cards__wrapper");
+const Wrap = document.querySelector(".cards__wrapper");
 
 function createBoxArray(data) {
   for (let el of data) {
-    console.log(el.symbol, el.title);
     createCard(el);
   }
 }
@@ -25,6 +24,6 @@ function createCard(newData) {
   keywords.textContent = newData.keywords;
   keywords.className = "item__keywords";
 
-  cardsArrayWrap.append(newCard);
+  Wrap.append(newCard);
   newCard.append(symbol, title, keywords);
 }
